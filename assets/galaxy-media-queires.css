@@ -1,0 +1,752 @@
+/*Media Queries for Galaxy phones landscape*/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body {
+        font-family: 'Raleway', sans-serif, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    #navbar {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: #5d5c61;
+        margin: 0;
+        width: 100%;
+        height: 5em;
+        position: relative;
+        overflow: visible;
+    }
+    #navbar #menu {
+        display: none;
+    }
+    #navbar a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    #navbar ul {
+        margin: 0;
+        padding: 0;
+    }
+    #navbar ul li {
+        list-style-type: none;
+        color: white;
+        display: grid;
+        font-size: 15px;
+        font-weight: 200;
+        transition: 0.5s color ease-in-out;
+        position: relative;
+        margin: 15px;
+    }
+    #navbar ul li ul {
+        background-color: #5d5c61;
+        border-radius: 0px 0px 8px 8px;
+        display: none;
+        position: initial;
+        padding-top: 18px;
+    }
+    #navbar a.icon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+    #navbar a:hover {
+        background-color: #5d5c61;
+        color: black;
+    }
+    #menu .active {
+        display: inline-grid;
+        background-color: #5d5c61;
+    }
+    #navbar i {
+        display: block;
+    }
+    .header-img {
+        background-image: url(images/puppies.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: solid 0.5px;
+        display: block;
+        height: 14em;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .main-page-info {
+        background-color: #7395ae;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    .fb-timeline {
+        width: 100%;
+        display: block;
+    }
+    .fb-timeline h3 {
+        text-align: left;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    iframe {
+        width: 90%;
+        height: 17rem;
+        border: none;
+        overflow: hidden;
+    }
+    .small-info-textbox {
+        margin: auto;
+        width: 80%;
+        list-style: none;
+    }
+    .small-info-textbox h4 {
+        text-align: left;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+    .small-info-textbox li {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .small-info-textbox p {
+        font-weight: 100;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+    .news {
+        background-color: #5d5c61;
+        display: inline-grid;
+        height: 385%;
+        margin: 0;
+        width: 100%;
+    }
+    .news-articles {
+        padding-left: 0%;
+    }
+    .news-articles h4 {
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    .news-explanation {
+        padding-left: 1em;
+        width: 70%;
+        line-height: 25px;
+    }
+    .article img {
+        width: 70%;
+        height: 325px;
+    }
+    .news-explanation h5 {
+        font-size: 20px;
+    }
+    .news-explanation p {
+        font-size: 20px;
+    }
+    .pictures {
+        display: inline-block;
+        justify-items: center;
+    }
+    .pictures img {
+        margin: 5px;
+    }
+    .news-image {
+        height: 150px;
+        width: 150px;
+    }
+    .pictures-p {
+        font-size: 20px;
+    }
+    #events-section {
+        background-color: #557A95;
+        display: inline-flex;
+        margin: 0;
+        width: 100%;
+    }
+    #events-section h4 {
+        width: 90%;
+        text-align: left;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .events {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+    .upcoming-events {
+        margin-left: 2rem;
+        text-align: left;
+    }
+    .upcoming-events .event-title {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .upcoming-events p {
+        margin-left: 0;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .footer {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .footer ul {
+        background-color: darkgray;
+        margin: 0;
+        width: 100%;
+    }
+    .footer li {
+        color: white;
+        display: inline-block;
+        font-size: 11px;
+        margin: 3px;
+    }
+    .sponsor-footer {
+        display: none;
+    }
+    .copyright-footer {
+        text-align: center;
+        background-color: darkgray;
+        font-weight: 100;
+        font-size: 8px;
+    }
+    /*About Page*/
+    .about {
+        display: block;
+        margin: auto;
+        width: 80%;
+        padding-top: 5px;
+    }
+    .about .subtitle {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .about p {
+        font-size: 17px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+    /*Volunteer Page*/
+    .volunteer {
+        width: 100%;
+        margin: auto;
+    }
+    .volunteer .subtitle {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+    .volunteer p {
+        margin: auto;
+        line-height: 25px;
+        width: 90%;
+    }
+    /*Resources Page*/
+    .resources {
+        margin: auto;
+        width: 100%;
+    }
+    .subtitle {
+        font-size: 20px;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .resource-section {
+        margin: auto;
+        display: block;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .resource-section p {
+        display: block;
+        line-height: 25px;
+        padding-left: 100px;
+        width: 60%;
+    }
+    .resource-section p a {
+        color: blue;
+        font-size: 15px;
+    }
+    .logo img {
+        height: 100px;
+        width: 100px;
+        transition: transform .2s;
+        float: right;
+        margin-right: 52px;
+    }
+    /*Wishlist Page*/
+    .wishlist {
+        margin: auto;
+        width: 100%;
+    }
+    .wishlist .subtitle {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .wishlist p {
+        width: 80%;
+        margin: auto;
+        line-height: 25px;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .wishlist li {
+        width: 80%;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 1.75rem;
+        margin: auto;
+    }
+    /*Disaster Preparedness page*/
+    .preparedness {
+        margin: auto;
+    }
+    .preparedness .subtitle {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .table-of-contents {
+        width: 77%;
+        margin: auto;
+        margin-top: 10px;
+        height: 55%;
+        border: solid 1px;
+    }
+    .contents {
+        font-size: 19px;
+        font-weight: 100;
+        margin: auto;
+        padding-left: 45px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .content-section {
+        font-size: 15px;
+        list-style-type: none;
+        margin-left: 45px;
+        line-height: 35px;
+    }
+    .content-section li {
+        color: blue;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+    #tips-title-one h4 {
+        margin: auto;
+        margin-top: 10px;
+        width: 80%;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 200;
+        font-size: 17px;
+    }
+    .tips {
+        margin: auto;
+        width: 80%;
+    }
+    .tips p {
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+    .tips li {
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+}
+
+
+/*-------------------------------------Media Queries for Galaxy phones portrait-------------------------------------------*/
+
+
+/*WORKING AS OF NOW. DO NOT TOUCH!*/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body {
+        font-family: 'Raleway', sans-serif, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    #navbar {
+        display: table;
+        justify-content: center;
+        align-items: center;
+        background-color: #5d5c61;
+        margin: 0;
+        width: 100%;
+        height: 70px;
+        position: relative;
+        overflow: visible;
+    }
+    #navbar #menu {
+        display: none;
+    }
+    #navbar a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    #navbar ul {
+        margin: 0;
+        padding: 0;
+    }
+    #navbar ul li {
+        list-style-type: none;
+        color: white;
+        display: grid;
+        font-size: 15px;
+        font-weight: 200;
+        transition: 0.5s color ease-in-out;
+        position: relative;
+        margin: 15px;
+    }
+    #navbar ul li ul {
+        background-color: #5d5c61;
+        border-radius: 0px 0px 8px 8px;
+        display: none;
+        position: initial;
+        padding-top: 18px;
+    }
+    #navbar a.icon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+    #navbar a:hover {
+        background-color: #5d5c61;
+        color: black;
+    }
+    #menu .active {
+        color: white;
+        display: inline-grid;
+    }
+    #navbar i {
+        display: block;
+    }
+    .header-img {
+        background-image: url(images/puppies.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: solid 0.5px;
+        display: block;
+        height: 30%;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .main-page-info {
+        background-color: red;
+        /*background-color: #7395ae;*/
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    .fb-timeline {
+        width: 100%;
+        display: none;
+    }
+    .fb-timeline h3 {
+        display: none;
+    }
+    iframe {
+        display: none
+    }
+    .small-info-textbox {
+        margin: auto;
+        width: 90%;
+        list-style: none;
+    }
+    .small-info-textbox h4 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .small-info-textbox li {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .small-info-textbox p {
+        font-weight: 100;
+        line-height: 25px;
+    }
+    .main-page-info-2 {
+        background-color: gray;
+        display: inline-flex;
+        margin: 0;
+    }
+    .news {
+        background-color: #5d5c61;
+        display: inline-table;
+        height: 250%;
+        margin: auto;
+        width: 100%;
+    }
+    .news-articles {
+        padding-top: 20px;
+        margin: auto;
+        width: 65%;
+    }
+    .news-articles h4 {
+        padding-bottom: 10px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .article img {
+        width: 225px;
+        height: 225px;
+    }
+    .news-explanation {
+        margin: auto;
+        width: 90%;
+        line-height: 25px;
+    }
+    .news-explanation h5 {
+        font-size: 20px;
+    }
+    .news-explanation p {
+        font-size: 20px;
+    }
+    .pictures {
+        margin: auto;
+        display: inline-block;
+        justify-items: center;
+    }
+    .pictures img {
+        margin: 5px;
+    }
+    .news-image {
+        height: 230px;
+        width: 245px;
+    }
+    .pictures-p {
+        font-size: 20px;
+    }
+    #events-section {
+        background-color: #557A95;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    #events-section h4 {
+        text-align: left;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .events {
+        line-height: 30px;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+    .upcoming-events {
+        line-height: 2.3em;
+        margin: auto;
+        text-align: left;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .upcoming-events .event-title {
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 23px;
+    }
+    .upcoming-events p {
+        margin: auto;
+        width: 90%;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .footer {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .footer ul {
+        display: block;
+        background-color: darkgray;
+        margin: 0;
+        width: 100%;
+    }
+    .footer li {
+        color: white;
+        display: inline-block;
+        font-size: 11px;
+        margin: 5px;
+    }
+    .sponsor-footer {
+        display: none;
+    }
+    .copyright-footer {
+        text-align: center;
+        background-color: darkgray;
+        font-weight: 100;
+        font-size: 8px;
+    }
+    /*About Page*/
+    .about {
+        display: block;
+        margin: auto;
+        width: 80%;
+        padding-top: 5px;
+    }
+    .about .subtitle {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .about p {
+        font-size: 17px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+    /*Volunteer Page*/
+    .volunteer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .volunteer p {
+        line-height: 30px;
+        margin: auto;
+        width: 75%;
+    }
+    .volunteer .subtitle {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 30px;
+    }
+    /*Resources Page*/
+    .resources {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .subtitle {
+        font-size: 20px;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .resource-section {
+        display: block;
+        margin-top: 10px;
+    }
+    .resource-section p {
+        width: 50%;
+        display: block;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .resource-section p a {
+        color: blue;
+        font-size: 15px;
+    }
+    .logo img {
+        height: 100px;
+        width: 100px;
+        transition: transform .2s;
+        float: right;
+        margin-right: 40px;
+    }
+    /*Wishlist Page*/
+    .wishlist {
+        margin-bottom: 20px;
+    }
+    .wishlist .subtitle {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .wishlist p {
+        width: 80%;
+        margin: auto;
+        line-height: 25px;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .wishlist li {
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 1.75rem;
+    }
+    /*Disaster Preparedness page*/
+    .preparedness {
+        margin: auto;
+    }
+    .preparedness .subtitle {
+        font-size: 20px;
+        font-weight: 100;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .table-of-contents {
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 47%;
+        border: solid 1px;
+    }
+    .contents {
+        font-size: 17px;
+        font-weight: 100;
+        margin: 12px;
+        margin-left: 15px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .content-section {
+        font-size: 15px;
+        list-style-type: none;
+        margin-left: 15px;
+        line-height: 35px;
+    }
+    #tips-title-one {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 100;
+        font-size: 17px;
+    }
+    /*Livestock Page*/
+    #tips-title-one h4 {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 100;
+        font-size: 17px;
+        width: 80%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .tips {
+        margin: auto;
+        width: 85%;
+    }
+    .tips p {
+        font-weight: 100;
+        line-height: 30px;
+    }
+}
