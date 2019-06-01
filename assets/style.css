@@ -483,7 +483,7 @@
         text-align: center;
         text-transform: capitalize;
         margin: auto;
-        font-size: 1.563em;
+        font-size: 1.5em;
     }
     
     .logo img {
@@ -491,13 +491,38 @@
         width: 100px;
         transition: transform .2s;
         float: right;
-        margin-right: 190px;
+        margin-right: 150px;
     }
     
     .logo .dart-logo {
         height: 100px;
         width: 110px;
         float: right;
+    }
+
+    .logo .vet-1 {
+        height: 70px;
+        width: 190px;
+        float: right;
+    }
+
+    .logo .vet-2 {
+        height: 70px;
+        width: 310px;
+        float: right;
+    }
+
+    .logo .vet-3 {
+        height: 150px;
+        width: 150px;
+        float: right;
+        margin-right: 125px;
+    }
+
+    .logo .vet-4 {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
     }
     
     .logo img:hover {
@@ -511,7 +536,7 @@
     
     .resource-section p {
         display: block;
-        margin-left: 5.250em;
+        margin-left: 5em;
     }
     
     .resource-section p a {
@@ -930,7 +955,7 @@
         .resource-section p {
             display: block;
             line-height: 25px;
-            padding-left: 100px;
+            padding-left: 0em;
             width: 60%;
         }
         .resource-section p a {
@@ -938,11 +963,32 @@
             font-size: 15px;
         }
         .logo img {
-            height: 100px;
-            width: 100px;
+            height: 5em;
+            width: 5em;
             transition: transform .2s;
             float: right;
-            margin-right: 52px;
+            margin-right: 4em;
+        }
+        .logo .vet-1 {
+            height: 3em;
+            width: 8em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 3em;
+            width: 13em;
+            float: right;
+        }
+        .logo .vet-3 {
+            height: 8em;
+            width: 9em;
+            float: right;
+            margin-right: 3.5em;
+        }
+        .logo .vet-4 {
+            border-radius: 50%;
+            height: 6em;
+            width: 6em;
         }
         /*Wishlist Page*/
         .wishlist {
@@ -1618,6 +1664,16 @@
             float: right;
             margin-right: 5em;
         }
+        .logo .vet-1 {
+            height: 4em;
+            width: 13em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 4em;
+            width: 17em;
+            float: right;
+        }
         /*Wishlist Page*/
         .wishlist .subtitle {
             margin-top: 0.3em;
@@ -1856,10 +1912,26 @@
         }
         /*Resources Page*/
         .logo img {
-            height: 6em;
-            width: 6em;
+            height: 5em;
+            width: 5em;
             float: right;
-            margin-right: 5em;
+            margin-right: 3em;
+        }
+        .logo .vet-1 {
+            height: 5em;
+            width: 15em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 4em;
+            width: 19em;
+            float: right;
+        }
+        .logo .vet-3 {
+            height: 9em;
+            width: 9em;
+            float: right;
+            margin-right: 1.5em;
         }
         /*Wishlist Page*/
         .wishlist .subtitle {
@@ -2179,15 +2251,31 @@
             font-size: 15px;
         }
         .logo img {
-            height: 4em;
-            width: 4em;
+            height: 5em;
+            width: 5em;
             float: right;
             margin-right: 2em;
         }
         .logo .dart-logo {
-            height: 4em;
-            width: 4em;
+            height: 5em;
+            width: 6em;
             float: right;
+        }
+        .logo .vet-1 {
+            height: 3em;
+            width: 9em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 3em;
+            width: 12em;
+            float: right;
+        }
+        .logo .vet-3 {
+            height: 7em;
+            width: 9em;
+            float: right;
+            margin-right: 0em;
         }
         /*Wishlist Page*/
         .wishlist {
@@ -2265,7 +2353,7 @@
             line-height: 30px;
         }
     }
-    
+    /*iPhone 5 Landscape*/
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         body {
             font-family: 'Raleway', sans-serif, Helvetica, sans-serif;
@@ -2471,11 +2559,23 @@
             padding-bottom: 1em;
         }
         /*Resources Page*/
+        .resource-section p {
+            display: block;
+            line-height: 1.5em;
+            padding-left: 0em;
+            width: 40%;
+        }
         .logo img {
             height: 6em;
             width: 6em;
             float: right;
-            margin-right: 5em;
+            margin-right: 2em;
+        }
+        .logo .vet-3 {
+            height: 9em;
+            width: 9em;
+            float: right;
+            margin-right: 1em;
         }
         /*Wishlist Page*/
         .wishlist .subtitle {
@@ -2502,7 +2602,7 @@
             margin: auto;
         }
     }
-    /*iPad Section*/
+    /*iPad Section Portrait*/
     
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         body {
@@ -2777,10 +2877,7 @@
         }
         /*Resources Page*/
         .resources {
-            height: 108%;
             display: block;
-            margin-top: 20px;
-            margin-bottom: 20px;
         }
         .resources .subtitle {
             text-align: center;
@@ -2793,6 +2890,7 @@
             margin-top: 10px;
         }
         .resource-section p {
+            line-height: 1.5em;
             font-size: 1.5em;
             width: 72%;
             display: block;
@@ -2803,15 +2901,36 @@
             font-size: 1em;
         }
         .logo img {
-            height: 7em;
-            width: 7em;
+            height: 10em;
+            width: 10em;
             float: right;
-            margin-right: 3em;
+            margin-right: 2em;
         }
         .logo .dart-logo {
-            height: 7em;
-            width: 7em;
+            height: 9em;
+            width: 10em;
             float: right;
+        }
+        .logo .vet-1 {
+            height: 5em;
+            width: 18em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 4em;
+            width: 19em;
+            float: right;
+        }
+        .logo .vet-3 {
+            height: 17em;
+            width: 17em;
+            float: right;
+            margin-right: 0em;
+        }
+        .logo .vet-4 {
+            border-radius: 50%;
+            height: 13em;
+            width: 13em;
         }
         /*Wishlist Page*/
         .wishlist {
@@ -2897,7 +3016,7 @@
             line-height: 30px;
         }
     }
-    
+    /*iPad Section Landscape*/
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         body {
             font-family: 'Raleway', sans-serif, Helvetica, sans-serif;
@@ -3108,6 +3227,12 @@
             width: 6em;
             float: right;
             margin-right: 5em;
+        }
+        .logo .vet-3 {
+            height: 9em;
+            width: 10em;
+            float: right;
+            margin-right: 3em;
         }
         /*Wishlist Page*/
         .wishlist .subtitle {
@@ -3415,10 +3540,7 @@
         }
         /*Resources Page*/
         .resources {
-            height: 116%;
             display: block;
-            margin-top: 20px;
-            margin-bottom: 20px;
         }
         .resources .subtitle {
             text-align: center;
@@ -3432,7 +3554,8 @@
         }
         .resource-section p {
             font-size: 2em;
-            width: 59%;
+            line-height: 1.5em;
+            width: 61%;
             display: block;
             margin-left: 1.5em;
         }
@@ -3441,15 +3564,36 @@
             font-size: 1em;
         }
         .logo img {
-            height: 9em;
-            width: 9em;
+            height: 12em;
+            width: 12em;
             float: right;
-            margin-right: 1em;
+            margin-right: 4em;
         }
         .logo .dart-logo {
-            height: 9em;
-            width: 9em;
+            height: 11em;
+            width: 13em;
             float: right;
+        }
+        .logo .vet-1 {
+            height: 7em;
+            width: 20em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 7em;
+            width: 28em;
+            float: right;
+        }
+        .logo .vet-3 {
+            height: 18em;
+            width: 19em;
+            float: right;
+            margin-right: 0em;
+        }
+        .logo .vet-4 {
+            border-radius: 50%;
+            height: 12em;
+            width: 12em;
         }
         /*Wishlist Page*/
         .wishlist {
@@ -3567,7 +3711,7 @@
             line-height: 2em;
         }
     }
-    
+    /*iPad Pro Landscape*/
     @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         body {
             font-family: 'Raleway', sans-serif, Helvetica, sans-serif;
@@ -3826,10 +3970,38 @@
             margin-left: 0em;
         }
         .logo img {
-            height: 9em;
-            width: 9em;
+            height: 11em;
+            width: 11em;
             float: right;
+            margin-right: 0em;
+        }
+        .logo .dart-logo {
+            height: 8em;
+            width: 10em;
+            float: right;
+        }
+        .logo .vet-1 {
+            height: 7em;
+            width: 22em;
+            float: right;
+        }
+        .logo .vet-2 {
+            height: 7em;
+            width: 31em;
+            float: right;
+        }
+        .logo .vet-3 {
+            margin-right: -3em;
+            border-radius: 50%;
+            height: 18em;
+            width: 18em;
+            float: right;
+        }
+        .logo .vet-4 {
             margin-right: 1em;
+            border-radius: 50%;
+            height: 12em;
+            width: 12em;
         }
         /*Wishlist Page*/
         .wishlist .subtitle {
